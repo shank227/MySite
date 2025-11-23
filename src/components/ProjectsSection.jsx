@@ -48,7 +48,7 @@ const projects = [
       "the platform will allow users to lend cryptocurrency assets to earn interest or borrow assets by providing collateral.",
     image: "/projects/eth.jpeg",
     tags: ["Ethereum", "Blockchain", "Smart Contracts"],
-    githubUrl: "https://github.com/samyak2003-coder/498_519_533_534_URL_SHORTENER.git",
+    githubUrl: "https://github.com/Shreyas-S03/Lending_DApp.git",
   },
 
 
