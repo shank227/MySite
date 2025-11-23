@@ -3,32 +3,73 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "Smart Study Planner",
+    description: "A Java application that generates personalized study plans for students using Google's Gemini API.",
+    image: "/projects/smartstudyplanner.png",
+    tags: ["Java", "JavaFX", "Gemini API Integration"],
+    githubUrl: "https://github.com/SanjYE/AI_in_JAVA.git",
   },
+
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Tic Tac Toe",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "A simple Tic Tac Toe Game using the frontend Trioka i.e. HTML/CSS/JS",
+    image: "/projects/tictactoepng.png",
+    tags: ["HTML", "(CSS)", "JavaScript"],
+    demoUrl: "https://ticitacatoee101.netlify.app/",
+    githubUrl: "https://github.com/shank227/TicTacToe-Frontend.git",
   },
+
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "GitHub Repo Analyzer",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
+      "A Tool which gives the detail about all the stats of a Github User and built using API Integration",
+    image: "/projects/github.png",
+    tags: ["Python", "API Integration"],
+    githubUrl: "https://github.com/shank227/github-repo-analyzer.git",
+  },
+
+  {
+    id: 4,
+    title: "Load Balancer URL Shortner",
+    description:
+      "used AWS as the hosting server and APAortener, using AWS and Kubernetes, demonstrating container orchestration and high availability cloud deployment.",
+    image: "/projects/Load_balanced_url_service.jpg",
+    tags: ["AWS", "Kubernetes"],
+    githubUrl: "https://github.com/samyak2003-coder/498_519_533_534_URL_SHORTENER.git",
+  },
+
+  {
+    id: 5,
+    title: "Smart contract-based decentralized lending and borrowing platform using Ethereum",
+    description:
+      "the platform will allow users to lend cryptocurrency assets to earn interest or borrow assets by providing collateral.",
+    image: "/projects/eth.jpeg",
+    tags: ["Ethereum", "Blockchain", "Smart Contracts"],
+    githubUrl: "https://github.com/samyak2003-coder/498_519_533_534_URL_SHORTENER.git",
+  },
+
+
+  {
+    id: 6,
+    title: "Content-based phishing detection program using machine learning and deep learning (in progress)",
+    description:
+      "built a hybrid phishing detection model leveraging LSTM for text sequence learning and GCN for relational graph analysis, implemented in Python with PyTorch and NLP preprocessing pipelines, optimizing detection accuracy and reducing false positives.",
+    image: "/projects/phishing.webp",
+    tags: ["NLP", "Deep Learning", "CyberSecuirty"],
     githubUrl: "#",
+  },
+
+  {
+    id: 7,
+    title: "AI Security Log Threat Detection (in progress)",
+    description:
+      "Built a deployable ML-based security log analyzer that detects anomalies and potential cyber threats using automated log parsing, anomaly detection models, and a live dashboard.",
+    image: "/projects/logs.jpeg",
+    tags: ["LSTM", "Feature Engineering", "CyberSecuirty", "Machine Learning"],
+    githubUrl: "https://github.com/shank227/security-log-threat-detection.git",
   },
 ];
 
@@ -100,7 +141,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/shank227"
           >
             Check My Github <ArrowRight size={16} />
           </a>
