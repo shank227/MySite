@@ -21,7 +21,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-          I bring ideas to life with code — blending Python’s precision, Java’s logic, and JavaScript’s creativity to build experiences that feel alive. With a deep grounding in Linux and cybersecurity, I craft systems that are not just beautiful, but resilient.
+          I turn ideas into living, breathing systems — weaving Python’s clarity, Java’s discipline, and JavaScript’s playful flow into creations that move with purpose. Anchored in Linux and fortified by cybersecurity, I build experiences that are not only elegant to use, but tough enough to stand their ground.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
