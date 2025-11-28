@@ -59,7 +59,7 @@ const projects = [
       "built a hybrid phishing detection model leveraging LSTM for text sequence learning and GCN for relational graph analysis, implemented in Python with PyTorch and NLP preprocessing pipelines, optimizing detection accuracy and reducing false positives.",
     image: "/projects/phishing.webp",
     tags: ["NLP", "Deep Learning", "CyberSecuirty"],
-    githubUrl: "#",
+    githubUrl: "https://github.com/shank227/Capstone_107.git",
   },
 
   {
@@ -70,6 +70,16 @@ const projects = [
     image: "/projects/logs.jpeg",
     tags: ["LSTM", "Feature Engineering", "CyberSecuirty", "Machine Learning"],
     githubUrl: "https://github.com/shank227/security-log-threat-detection.git",
+  },
+
+    {
+    id: 8,
+    title: "AI Resume Builder Website FULL STACK (in progress)",
+    description:
+      "Built a deployable ML-based security log analyzer that detects anomalies and potential cyber threats using automated log parsing, anomaly detection models, and a live dashboard.",
+    image: "/projects/CVproject.webp",
+    tags: ["Web Development", "MERN Stack"],
+    githubUrl: "https://github.com/shank227/AI-Resume-Builder_FREE.git",
   },
 ];
 
