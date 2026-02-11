@@ -54,7 +54,7 @@ const projects = [
 
   {
     id: 6,
-    title: "Content-based phishing detection program using machine learning and deep learning (in progress)",
+    title: "Content-based phishing detection program using machine learning and deep learning",
     description:
       "built a hybrid phishing detection model leveraging LSTM for text sequence learning and GCN for relational graph analysis, implemented in Python with PyTorch and NLP preprocessing pipelines, optimizing detection accuracy and reducing false positives.",
     image: "/projects/phishing.webp",
@@ -64,7 +64,7 @@ const projects = [
 
   {
     id: 7,
-    title: "AI Security Log Threat Detection (in progress)",
+    title: "AI Security Log Threat Detection",
     description:
       "Built a deployable ML-based security log analyzer that detects anomalies and potential cyber threats using automated log parsing, anomaly detection models, and a live dashboard.",
     image: "/projects/logs.jpeg",
@@ -74,7 +74,7 @@ const projects = [
 
     {
     id: 8,
-    title: "AI Resume Builder Website FULL STACK (in progress)",
+    title: "AI Resume Builder Website FULL STACK",
     description:
       "Built a deployable ML-based security log analyzer that detects anomalies and potential cyber threats using automated log parsing, anomaly detection models, and a live dashboard.",
     image: "/projects/CVproject.webp",
